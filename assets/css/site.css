@@ -345,9 +345,9 @@ html,body{
 #win-detail{top:140px;left:200px;width:620px}
 
 
-.detail-info 
-.detail-info 
-.detail-info 
+.detail-info
+.detail-info
+.detail-info
 
 .dtag{
   font-size:10px;padding:1px 8px;
@@ -488,7 +488,7 @@ html,body{
 .sm-item:hover{background:var(--xp-blue2);color:#fff}
 .sm-item .sm-ico{font-size:20px;flex-shrink:0}
 .sm-item .sm-label{flex:1}
-.sm-item 
+.sm-item
 .sm-sep{height:1px;background:#c0c8e0;margin:3px 0}
 .sm-bottom{
   background:linear-gradient(180deg,#1b6dd4,#0a246a);
