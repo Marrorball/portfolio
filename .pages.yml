@@ -1,0 +1,344 @@
+media:
+  input: assets/media
+  output: /portfolio/assets/media
+  rename: safe
+  extensions: [png, jpg, jpeg, webp, gif, svg]
+
+content:
+  - name: projects
+    label: Проекты
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Идентификатор
+        type: string
+        required: true
+      - name: title
+        label: Название
+        type: string
+        required: true
+      - name: category
+        label: Категория
+        type: select
+        required: true
+        options:
+          values:
+            - name: uxui
+              label: UX/UI
+            - name: graphic
+              label: Графический дизайн
+      - name: year
+        label: Год
+        type: string
+      - name: status
+        label: Статус
+        type: string
+      - name: icon
+        label: Иконка
+        type: string
+        default: 📄
+      - name: background
+        label: Цвет карточки
+        type: string
+        default: "#ffffff"
+      - name: summary
+        label: Краткое описание
+        type: text
+      - name: cover
+        label: Обложка
+        type: image
+        options:
+          path: projects
+          rename: safe
+      - name: gallery
+        label: Галерея
+        type: image
+        options:
+          path: projects
+          multiple:
+            max: 30
+          unique: true
+          rename: safe
+      - name: tags
+        label: Теги
+        type: string
+        list: true
+      - name: behance
+        label: Ссылка на проект
+        type: string
+      - name: order
+        label: Порядок
+        type: number
+        default: 100
+      - name: published
+        label: Опубликован
+        type: boolean
+        default: true
+      - name: sections
+        label: Разделы кейса
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - name: id
+            label: Идентификатор вкладки
+            type: string
+            required: true
+          - name: label
+            label: Название вкладки
+            type: string
+            required: true
+          - name: content
+            label: Содержимое
+            type: rich-text
+            options:
+              format: html
+              path: projects
+              rename: safe
+              switcher: true
+
+  - name: pages
+    label: Страницы
+    type: file
+    path: content/pages.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Идентификатор
+        type: string
+        required: true
+      - name: title
+        label: Заголовок
+        type: string
+        required: true
+      - name: icon
+        label: Иконка
+        type: string
+        default: 📄
+      - name: template
+        label: Шаблон
+        type: select
+        default: generic
+        options:
+          values:
+            - name: generic
+              label: Обычная страница
+            - name: contact
+              label: Контакты из настроек
+      - name: order
+        label: Порядок
+        type: number
+        default: 100
+      - name: published
+        label: Опубликована
+        type: boolean
+        default: true
+      - name: showOnDesktop
+        label: Показывать на рабочем столе
+        type: boolean
+        default: true
+      - name: showInStart
+        label: Показывать в меню Пуск
+        type: boolean
+        default: true
+      - name: content
+        label: Содержимое
+        type: rich-text
+        options:
+          format: html
+          path: pages
+          rename: safe
+          switcher: true
+
+  - name: resume
+    label: Резюме
+    type: file
+    path: content/resume.json
+    format: json
+    fields:
+      - name: experience
+        label: Опыт работы
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{company} — {role}"
+        fields:
+          - name: company
+            label: Компания
+            type: string
+            required: true
+          - name: role
+            label: Роль
+            type: string
+          - name: period
+            label: Период
+            type: string
+          - name: description
+            label: Описание
+            type: text
+      - name: education
+        label: Образование
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{institution} — {program}"
+        fields:
+          - name: institution
+            label: Учебное заведение
+            type: string
+            required: true
+          - name: program
+            label: Программа
+            type: string
+          - name: period
+            label: Период
+            type: string
+          - name: description
+            label: Описание
+            type: text
+      - name: publications
+        label: Публикации
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} ({year})"
+        fields:
+          - name: title
+            label: Название
+            type: string
+            required: true
+          - name: year
+            label: Год
+            type: string
+          - name: description
+            label: Издание
+            type: text
+          - name: url
+            label: Ссылка
+            type: string
+      - name: skills
+        label: Навыки
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Группа
+            type: string
+            required: true
+          - name: level
+            label: Навыки
+            type: text
+      - name: tools
+        label: Инструменты
+        type: string
+        list: true
+      - name: links
+        label: Ссылки
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - name: label
+            label: Название
+            type: string
+          - name: url
+            label: Ссылка
+            type: string
+      - name: about
+        label: О себе
+        type: text
+
+  - name: site
+    label: Настройки сайта
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: owner
+        label: Владелец
+        type: object
+        fields:
+          - name: name
+            label: Имя
+            type: string
+            required: true
+          - name: role
+            label: Роль
+            type: string
+          - name: experience
+            label: Опыт
+            type: string
+          - name: location
+            label: Локация
+            type: string
+          - name: status
+            label: Статус
+            type: string
+          - name: bio
+            label: Описание
+            type: text
+      - name: contacts
+        label: Контакты
+        type: object
+        fields:
+          - name: email
+            label: Email
+            type: string
+          - name: telegram
+            label: Telegram без @
+            type: string
+          - name: behance
+            label: Behance
+            type: string
+      - name: categories
+        label: Категории проектов
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: id
+            label: Идентификатор
+            type: string
+            required: true
+          - name: title
+            label: Название
+            type: string
+            required: true
+          - name: icon
+            label: Иконка
+            type: string
+          - name: order
+            label: Порядок
+            type: number
+            default: 100
+          - name: showOnDesktop
+            label: Показывать на рабочем столе
+            type: boolean
+            default: true
+          - name: showInStart
+            label: Показывать в меню Пуск
+            type: boolean
+            default: true
+      - name: loadingMessages
+        label: Сообщения загрузки
+        type: string
+        list:
+          min: 1
