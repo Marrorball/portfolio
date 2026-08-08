@@ -1,0 +1,65 @@
+{
+  "experience": [
+    {
+      "company": "Фриланс",
+      "role": "UX/UI Designer · Graphic Designer",
+      "period": "2024 — н.в.",
+      "description": "Разные фриланс-проекты: лендинги, постеры; «Древо» — логотип, брендинг и интернет-магазин; Ocean Kids — сайт детского сада; графика для Surf Coffee; UX/UI для KORTEX; TailTrail."
+    }
+  ],
+  "education": [
+    {
+      "institution": "МТУСИ",
+      "program": "Высшее образование · Специальность: ИТ",
+      "period": "2022 — 2026",
+      "description": ""
+    },
+    {
+      "institution": "Perasperadastra",
+      "program": "Курс UX/UI Designer",
+      "period": "2025 — 2026",
+      "description": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Исследование эффективности алгоритмов машинного обучения в области видеоаналитики",
+      "year": "2023",
+      "description": "XIV Молодёжный научный форум «Телекоммуникации и информационные технологии», сборник трудов, том 2",
+      "url": ""
+    },
+    {
+      "title": "Investigation of the Effectiveness of Methods for Recognizing Elements of Car License Plates in Conditions of Their Limited Visibility",
+      "year": "2024",
+      "description": "XVI Молодёжный научный форум «Телекоммуникации и информационные технологии», сборник трудов",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Исследование",
+      "level": "Интервью · CJM · анализ сценариев · проверка гипотез"
+    },
+    {
+      "name": "Проектирование",
+      "level": "User flow · wireframes · прототипирование"
+    },
+    {
+      "name": "Интерфейсы",
+      "level": "UI-дизайн · дизайн-системы · визуальная иерархия · типографика"
+    },
+    {
+      "name": "Графика и бренд",
+      "level": "Айдентика · логотип · полиграфия"
+    }
+  ],
+  "tools": [
+    "Figma",
+    "Tilda",
+    "Adobe Suite",
+    "Jitter",
+    "Vibe Coding"
+  ],
+  "links": [],
+  "about": "Легко нахожу общий язык с командой и людьми из разных ролей. Не боюсь задавать вопросы, когда чего-то не знаю, и спокойно отношусь к критике — считаю её частью рабочего процесса."
+}

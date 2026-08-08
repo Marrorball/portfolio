@@ -1,0 +1,294 @@
+[
+  {
+    "id": "kortex",
+    "title": "KORTEX",
+    "category": "uxui",
+    "year": "2025",
+    "status": "Figma · 2025",
+    "icon": "🖤",
+    "background": "#0a0818",
+    "summary": "Сервис для подготовки к техническим собеседованиям. Пользователь выбирает специальность, отвечает на вопросы и получает разбор от ИИ.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "ИИ",
+      "SaaS",
+      "Тёмный UI",
+      "Web App",
+      "Figma"
+    ],
+    "behance": "https://www.behance.net/gallery/247016619/web-service-AI",
+    "order": 10,
+    "published": true,
+    "sections": [
+      {
+        "id": "cover",
+        "label": "🖼 Обложка",
+        "content": "<div class=\"cs-section\"><div class=\"cs-row-2\"><div class=\"cs-card\"><div class=\"cs-card-title\">Роль</div><div class=\"cs-card-text\">UX/UI дизайн — соло</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Период</div><div class=\"cs-card-text\">2025 · ~3 недели</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Инструменты</div><div class=\"cs-card-text\">Figma, FigJam</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Платформа</div><div class=\"cs-card-text\">Web · Desktop first</div></div></div><div style=\"text-align:center;margin-top:12px\"><a class=\"behance-btn\" href=\"https://www.behance.net/gallery/247016619/web-service-AI\" target=\"_blank\">🎨 Смотреть на Behance</a></div></div>"
+      },
+      {
+        "id": "problem",
+        "label": "❓ Задача",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">❓</span>Проблема</div><div class=\"cs-text\">Люди готовятся к собеседованиям, но им негде потренироваться: нет удобного формата и никто не даёт обратную связь.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎯</span>Что надо было сделать</div><div class=\"cs-text\">Спроектировать тёмный минималистичный интерфейс для ИИ-агента по сценарию: выбор специальности → ответы на вопросы → разбор результата.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">👤</span>Кто пользуется</div><div class=\"cs-text\">Те, кто готовится к собеседованиям в IT-компаниях — Яндекс, VK, Сбер и других.</div></div>"
+      },
+      {
+        "id": "process",
+        "label": "✏️ Процесс",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎨</span>UI Kit</div><div class=\"cs-text\">Собрал дизайн-систему с нуля. Два шрифта (Jura + Manrope), токены, компоненты. Тёмная база с фиолетовым акцентом.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💬</span>Экран интервью</div><div class=\"cs-text\">Оставил на экране только необходимое: вопрос, поле ответа и прогресс. Добавил голосовой ввод, чтобы формат был ближе к реальному собеседованию.</div></div>"
+      },
+      {
+        "id": "solution",
+        "label": "🎨 Решение",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">📊</span>Результаты теста</div><div class=\"cs-text\">По каждой теме система показывает процент и конкретный разбор: что освоено, а что стоит подтянуть.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">👤</span>Профиль</div><div class=\"cs-text\">Личный кабинет, где собрана вся история прохождений.</div></div><div style=\"text-align:center;padding:8px\"><a class=\"behance-btn\" href=\"https://www.behance.net/gallery/247016619/web-service-AI\" target=\"_blank\">🎨 Все экраны на Behance</a></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💡</span>Что вынес</div><div class=\"cs-text\">Впервые собирал дизайн-систему с нуля. Главный вывод — если двигаться последовательно, задача оказывается вполне посильной.</div></div>"
+      }
+    ]
+  },
+  {
+    "id": "pik",
+    "title": "ПИК Production",
+    "category": "uxui",
+    "year": "2025",
+    "status": "Figma · 2025",
+    "icon": "🔴",
+    "background": "#1a0a0a",
+    "summary": "Лендинг для креативного агентства ПИК Production. Брендинг, контент, AI-видео и сайты.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "Лендинг",
+      "Тёмный UI",
+      "Креатив",
+      "Figma"
+    ],
+    "behance": "https://www.behance.net/gallery/246979247/Creative-Agency-Landing-Page",
+    "order": 20,
+    "published": true,
+    "sections": [
+      {
+        "id": "cover",
+        "label": "🖼 Обложка",
+        "content": "<div class=\"cs-section\"><div class=\"cs-row-2\"><div class=\"cs-card\"><div class=\"cs-card-title\">Роль</div><div class=\"cs-card-text\">UX/UI дизайн — соло</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Клиент</div><div class=\"cs-card-text\">ПИК Production</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Инструменты</div><div class=\"cs-card-text\">Figma, Tilda</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Период</div><div class=\"cs-card-text\">2025 · ~2 недели</div></div></div><div style=\"text-align:center;margin-top:12px\"><a class=\"behance-btn\" href=\"https://www.behance.net/gallery/246979247/Creative-Agency-Landing-Page\" target=\"_blank\">🎨 Смотреть на Behance</a></div></div>"
+      },
+      {
+        "id": "problem",
+        "label": "❓ Задача",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">❓</span>Кто клиент</div><div class=\"cs-text\">ПИК Production занимается брендингом, контентом и AI-видео. Среди клиентов — Surf Coffee, «Полдень», Skuratov.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎯</span>Задача</div><div class=\"cs-text\">Сделать лендинг, который сам по себе демонстрирует уровень агентства. Тёмная тема, крупная выразительная типографика.</div></div>"
+      },
+      {
+        "id": "solution",
+        "label": "🎨 Решение",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎨</span>Как сделал</div><div class=\"cs-text\">За основу взял тёмный фон и красный акцент из логотипа ПИК. Первый экран — на видео. Заголовок «Здесь рождается креатив, который не скипают» — формулировка клиента; моя задача была подать её так, чтобы она работала визуально.</div></div><div style=\"text-align:center;padding:8px\"><a class=\"behance-btn\" href=\"https://www.behance.net/gallery/246979247/Creative-Agency-Landing-Page\" target=\"_blank\">🎨 Смотреть на Behance</a></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💡</span>Что вынес</div><div class=\"cs-text\">Когда у клиента уже есть сильный характер бренда, задача дизайнера — не навязывать своё, а раскрыть то, что уже есть.</div></div>"
+      }
+    ]
+  },
+  {
+    "id": "uchi",
+    "title": "Учи.ру — Social Proof",
+    "category": "uxui",
+    "year": "2026",
+    "status": "Figma · 2026",
+    "icon": "📚",
+    "background": "#0a2818",
+    "summary": "Тестовое задание от VK — для их продукта Учи.ру. Концепция: как мотивировать учителей выдавать больше домашних заданий через сравнение классов между собой.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "EdTech",
+      "UX Research",
+      "Продуктовый дизайн",
+      "Figma"
+    ],
+    "behance": "",
+    "order": 30,
+    "published": true,
+    "sections": [
+      {
+        "id": "cover",
+        "label": "🖼 Обложка",
+        "content": "<div class=\"cs-section\"><div class=\"cs-row-2\"><div class=\"cs-card\"><div class=\"cs-card-title\">Роль</div><div class=\"cs-card-text\">Продуктовый дизайн, UX Research</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Клиент</div><div class=\"cs-card-text\">Учи.ру (тестовое задание)</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Инструменты</div><div class=\"cs-card-text\">Figma, FigJam</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Период</div><div class=\"cs-card-text\">2026</div></div></div><div style=\"text-align:center;margin-top:12px\"><a class=\"behance-btn\" href=\"https://www.figma.com/design/C0qumwO0PCPVtOvw0iJsdS/%D0%A3%D1%87%D0%B8.%D1%80%D1%83--%D0%94%D1%80%D0%B5%D0%B5%D0%B2-%D0%9C%D0%B0%D1%80%D0%B0%D1%82-?node-id=0-1&t=S81l8PxWW0DKM1z5-1\" target=\"_blank\">🎨 Открыть в Figma</a></div></div>"
+      },
+      {
+        "id": "problem",
+        "label": "❓ Задача",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">❓</span>Контекст</div><div class=\"cs-text\">Учи.ру — крупная образовательная платформа. Для бизнеса важно, чтобы учителя выдавали домашние задания через сервис: от этого зависит активность учеников и, в конечном счёте, выручка.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎯</span>Задача</div><div class=\"cs-text\">Нужно было найти способ мотивировать учителей выдавать задания чаще. Моя гипотеза: показывать учителю, что соседний класс уже впереди — например, «4Б опережает вас в марафоне», — чтобы сработало желание не отставать.</div></div>"
+      },
+      {
+        "id": "research",
+        "label": "🔍 Исследование",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🔍</span>Что делал</div><div class=\"cs-text\">Прошёл весь путь учителя — от входа на платформу до выдачи задания. Смотрел, где он видит марафон, что привлекает внимание, а что проходит мимо. Параллельно разобрал и сторону ученика.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">📊</span>Что сравнивал</div><div class=\"cs-text\">Разобрал, по каким параметрам можно сравнивать классы: баллы, место в рейтинге, число заданий, выданных другим учителем, процент решивших, динамика за неделю. Для каждого нашёл момент, где он действует сильнее всего.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🧪</span>Проверка</div><div class=\"cs-text\">Проверил сценарий на нескольких пользователях: понятно ли происходящее без дополнительных объяснений.</div></div>"
+      },
+      {
+        "id": "solution",
+        "label": "🎨 Решение",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎨</span>Три точки внедрения</div><div class=\"cs-text\">Нашёл три точки, где social proof встраивается так, чтобы учитель заметил его и захотел действовать.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">1️⃣</span>Виджет на главной</div><div class=\"cs-text\">Прямо на главной — график баллов за неделю и прогресс-бары. Рядом кнопка «Выдать задание» и подпись вроде «У 4Б уже 89% учеников решили задачи». Виджет адаптируется под ситуацию: лидируешь, догоняешь или отстаёшь.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">2️⃣</span>После выдачи ДЗ</div><div class=\"cs-text\">Сразу после выдачи задания учитель видит своё место в рейтинге и сколько баллов осталось до следующей позиции — чтобы связь «действие → результат» считывалась мгновенно.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">3️⃣</span>Баннер перед выдачей</div><div class=\"cs-text\">Перед нажатием «Выдать» учитель видит, сколько баллов задание принесёт классу в марафоне — дополнительный аргумент завершить действие.</div></div><div style=\"text-align:center;padding:8px\"><a class=\"behance-btn\" href=\"https://www.figma.com/design/C0qumwO0PCPVtOvw0iJsdS/%D0%A3%D1%87%D0%B8.%D1%80%D1%83--%D0%94%D1%80%D0%B5%D0%B5%D0%B2-%D0%9C%D0%B0%D1%80%D0%B0%D1%82-?node-id=0-1&t=S81l8PxWW0DKM1z5-1\" target=\"_blank\">🎨 Открыть в Figma</a></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Результат",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💡</span>Результат</div><div class=\"cs-text\">Решение встраивается в существующий интерфейс и ничего не ломает. Учитель видит сравнение в нужный момент, совершает действие и сразу получает обратную связь. Готово к A/B-тесту.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎓</span>Бонус: идеи для ученика</div><div class=\"cs-text\">Дополнительно предложил три механики для учеников: гонка на кораблях между классами, блок «твой вклад в команду» и пуш-уведомления, когда тебя обгоняют.</div></div>"
+      }
+    ]
+  },
+  {
+    "id": "kortex_logo",
+    "title": "KORTEX — Логотип",
+    "category": "graphic",
+    "year": "2025",
+    "status": "Illustrator · 2025",
+    "icon": "✒️",
+    "background": "#181020",
+    "summary": "Логотип для KORTEX. Две полузвезды напротив друг друга, кандидат и ИИ. Сходятся и получается готовый специалист.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "Лого",
+      "Брендинг",
+      "ИИ",
+      "Illustrator"
+    ],
+    "behance": "",
+    "order": 10,
+    "published": true,
+    "sections": [
+      {
+        "id": "cover",
+        "label": "🖼 Обложка",
+        "content": "<div class=\"cs-section\" style=\"background:#0d0d1a;border-radius:4px;padding:30px;text-align:center\"><img src=\"/portfolio/assets/media/projects/kortex_logo/cover/image-01.svg\" style=\"max-width:260px;width:100%\"></div><div class=\"cs-section\"><div class=\"cs-row-2\"><div class=\"cs-card\"><div class=\"cs-card-title\">Инструменты</div><div class=\"cs-card-text\">Illustrator, Figma</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Год</div><div class=\"cs-card-text\">2025</div></div></div></div>"
+      },
+      {
+        "id": "concept",
+        "label": "💡 Концепция",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💡</span>Идея</div><div class=\"cs-text\">Взял за основу ассоциацию «ИИ как звезда» и разделил её на две части. Две полузвезды обращены друг к другу — как кандидат и интервьюер.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🤝</span>Смысл</div><div class=\"cs-text\">Когда половины сходятся, образуется полная звезда — человек готов к собеседованию. Мне было важно, чтобы логотип рассказывал историю продукта без слов.</div></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">✅</span>Результат</div><div class=\"cs-text\">Проверил знак на тёмном и светлом фоне, в мелком и крупном размере — он сохраняет читаемость и узнаваемость во всех вариантах. Логотип готов только тогда, когда работает в любом контексте, а не только на обложке.</div></div><div style=\"background:#0d0d1a;border-radius:4px;padding:20px;text-align:center;margin:8px 0\"><img src=\"/portfolio/assets/media/projects/kortex_logo/outcome/image-01.svg\" style=\"max-width:180px;width:100%\"></div>"
+      }
+    ]
+  },
+  {
+    "id": "drevo_logo",
+    "title": "Древо — Логотип",
+    "category": "graphic",
+    "year": "2025",
+    "status": "Illustrator · 2025",
+    "icon": "🌳",
+    "background": "#1a1208",
+    "summary": "Логотип для мастерской «Древо». Срез дерева с годовыми кольцами, просто и честно.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "Лого",
+      "Брендинг",
+      "Illustrator",
+      "Крафт"
+    ],
+    "behance": "",
+    "order": 20,
+    "published": true,
+    "sections": [
+      {
+        "id": "cover",
+        "label": "🖼 Обложка",
+        "content": "<div class=\"cs-section\" style=\"background:#fff;border-radius:4px;padding:24px;text-align:center\"><img src=\"/portfolio/assets/media/projects/drevo_logo/cover/image-01.svg\" style=\"max-width:380px;width:100%\"></div><div class=\"cs-section\"><div class=\"cs-row-2\"><div class=\"cs-card\"><div class=\"cs-card-title\">Клиент</div><div class=\"cs-card-text\">Творческая мастерская «Древо»</div></div><div class=\"cs-card\"><div class=\"cs-card-title\">Инструменты</div><div class=\"cs-card-text\">Illustrator</div></div></div></div>"
+      },
+      {
+        "id": "brief",
+        "label": "📋 Бриф",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">📋</span>Клиент</div><div class=\"cs-text\">«Древо» — мастерская, которая делает мебель, декор и подарки из дерева.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎯</span>Задача</div><div class=\"cs-text\">Клиент попросил минималистичный логотип. Я нарисовал срез ствола с годовыми кольцами.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🔑</span>Ключевые слова</div><ul class=\"cs-bullets\"><li>Натуральность · Тепло · Ручная работа</li><li>Минимализм · Аккуратность</li></ul></div>"
+      },
+      {
+        "id": "concept",
+        "label": "💡 Концепция",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">💡</span>Идея</div><div class=\"cs-text\">В основе — срез ствола с годовыми кольцами. Форму намеренно сделал чуть неровной, чтобы знак не выглядел как идеальный компьютерный круг и сохранял ощущение ручной работы.</div></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🔄</span>Варианты</div><div class=\"cs-text\">Проработал несколько вариантов с разной детализацией колец и сочетанием знака с текстом. Финальный вариант клиент утвердил сразу.</div></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">✅</span>Результат</div><div class=\"cs-text\">Логотип используется в реальной работе мастерской — на сайте, упаковке и в соцсетях. Знак одинаково хорошо читается и в цифровой среде, и на печати.</div></div>"
+      }
+    ]
+  },
+  {
+    "id": "surf_stickers",
+    "title": "Surf Coffee",
+    "category": "graphic",
+    "year": "2025",
+    "status": "Illustrator · 2025",
+    "icon": "📄",
+    "background": "#0a1020",
+    "summary": "Два стикерпака для Surf Coffee x Aviapark на 3й и 4й день рождения.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "Стикеры",
+      "Иллюстрация",
+      "Surf Coffee",
+      "Illustrator"
+    ],
+    "behance": "",
+    "order": 30,
+    "published": true,
+    "sections": [
+      {
+        "id": "stickers",
+        "label": "🎨 Стикеры",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎨</span>4й день рождения Surf x Aviapark</div><img src=\"/portfolio/assets/media/projects/surf_stickers/stickers/image-01.jpg\" style=\"width:100%;border-radius:4px;display:block;margin-bottom:8px\"></div><div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">🎨</span>3й день рождения Surf x Aviapark</div><img src=\"/portfolio/assets/media/projects/surf_stickers/stickers/image-02.jpg\" style=\"width:100%;border-radius:4px;display:block;margin-bottom:8px\"></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">✅</span>Что вынес</div><div class=\"cs-text\">У Surf — сложившийся фирменный стиль, поэтому задача была не привнести своё, а точно попасть в их визуальный язык. Стикеры должны были выглядеть как естественная часть бренда, а не как сторонняя работа.</div></div>"
+      }
+    ]
+  },
+  {
+    "id": "surf_booklets",
+    "title": "Surf Coffee — Буклеты",
+    "category": "graphic",
+    "year": "2025",
+    "status": "Illustrator · 2025",
+    "icon": "📄",
+    "background": "#1a0808",
+    "summary": "Полиграфия для Surf Coffee. Буклет напитков и промо-материалы.",
+    "cover": "",
+    "gallery": [],
+    "tags": [
+      "Полиграфия",
+      "Иллюстрация",
+      "Surf Coffee",
+      "Illustrator"
+    ],
+    "behance": "",
+    "order": 40,
+    "published": true,
+    "sections": [
+      {
+        "id": "b1",
+        "label": "🖼 Буклет 1",
+        "content": "<div class=\"cs-section\"><img src=\"/portfolio/assets/media/projects/surf_booklets/b1/image-01.jpg\" style=\"width:100%;border-radius:4px;display:block;margin-bottom:8px\"><img src=\"/portfolio/assets/media/projects/surf_booklets/b1/image-02.jpg\" style=\"width:100%;border-radius:4px;display:block\"></div>"
+      },
+      {
+        "id": "b2",
+        "label": "🖼 Буклет 2",
+        "content": "<div class=\"cs-section\"><img src=\"/portfolio/assets/media/projects/surf_booklets/b2/image-01.jpg\" style=\"width:100%;border-radius:4px;display:block;margin-bottom:8px\"><img src=\"/portfolio/assets/media/projects/surf_booklets/b2/image-02.jpg\" style=\"width:100%;border-radius:4px;display:block\"></div>"
+      },
+      {
+        "id": "outcome",
+        "label": "💡 Что вынес",
+        "content": "<div class=\"cs-section\"><div class=\"cs-section-title\"><span class=\"cs-ico\">✅</span>Что сделал</div><div class=\"cs-text\">Два буклета для Surf — промо Open Challenge и карточки напитков. Полиграфия отличается от цифрового дизайна: важно учитывать поля под обрез и следить, чтобы текст и элементы корректно вставали при печати. Поработал с вёрсткой под типографию и подготовкой макетов к производству.</div></div>"
+      }
+    ]
+  }
+]

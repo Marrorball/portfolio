@@ -1,0 +1,40 @@
+{
+  "owner": {
+    "name": "Марат",
+    "role": "UX/UI Designer",
+    "experience": "1.5 года",
+    "location": "Москва, Россия",
+    "status": "Всё сложно (хочу работать)",
+    "bio": "Работал на фрилансе с разными задачами — от лендингов и постеров до интернет-магазинов; делал графику для Surf Coffee. Со временем сфокусировался на продуктовом дизайне и начал работать со стартапами, проектируя интерфейсы с нуля. Ищу команду, где смогу профессионально расти как продуктовый дизайнер."
+  },
+  "contacts": {
+    "email": "marrorball@gmail.com",
+    "telegram": "marrorball",
+    "behance": "https://www.behance.net/marmaraj11"
+  },
+  "categories": [
+    {
+      "id": "uxui",
+      "title": "UX/UI проекты",
+      "icon": "💼",
+      "order": 10,
+      "showOnDesktop": true,
+      "showInStart": true
+    },
+    {
+      "id": "graphic",
+      "title": "Графический дизайн",
+      "icon": "🎨",
+      "order": 20,
+      "showOnDesktop": true,
+      "showInStart": true
+    }
+  ],
+  "loadingMessages": [
+    "Запуск Windows XP...",
+    "Загрузка портфолио Марата...",
+    "Пожалуйста, возьмите его на работу...",
+    "Серьёзно, он очень старался...",
+    "Добро пожаловать!"
+  ]
+}

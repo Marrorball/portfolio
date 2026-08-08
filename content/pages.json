@@ -1,0 +1,24 @@
+[
+  {
+    "id": "about",
+    "title": "Обо мне",
+    "icon": "🖥️",
+    "template": "generic",
+    "order": 10,
+    "published": true,
+    "showOnDesktop": true,
+    "showInStart": true,
+    "content": "<p>Работал на фрилансе с разными задачами — от лендингов и постеров до интернет-магазинов; делал графику для Surf Coffee. Со временем сфокусировался на продуктовом дизайне и начал работать со стартапами, проектируя интерфейсы с нуля. Ищу команду, где смогу профессионально расти как продуктовый дизайнер.</p>"
+  },
+  {
+    "id": "contact",
+    "title": "Контакт",
+    "icon": "✉️",
+    "template": "contact",
+    "order": 20,
+    "published": true,
+    "showOnDesktop": true,
+    "showInStart": true,
+    "content": ""
+  }
+]
